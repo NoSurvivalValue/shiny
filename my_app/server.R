@@ -2,8 +2,8 @@ library(shiny)
 library(datasets)
 library(ggplot2)
 
-words <- read.csv("C:/Users/M/Downloads/all_words.csv",
-                 header = T)
+words <- read.csv("http://hsequantling.wikispaces.com/file/view/all_words.csv",
+                  header = T)
 
 shinyServer(function(input, output) {
   output$table <- DT::renderDataTable(DT::datatable({
