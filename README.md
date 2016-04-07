@@ -1,1 +1,1 @@
-The shiy app
+The shiny app
